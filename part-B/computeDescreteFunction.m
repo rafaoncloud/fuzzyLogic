@@ -14,7 +14,7 @@ function computeDescreteFunction()
     % 3: time sample time should be less than
     % the lowest time constant, say 1/10
     lowestimeconstant = min(timeconstants)
-    %Ts = lowestimeconstant / 10
+    Ts = lowestimeconstant / 5
 
     %% Apply discretization method 'zoh'
     %[numd,dend] = c2dm(numerator, ...
