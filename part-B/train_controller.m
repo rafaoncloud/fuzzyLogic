@@ -1,0 +1,4 @@
+
+clc
+
+FIS = genfis()
